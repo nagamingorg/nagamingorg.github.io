@@ -66,6 +66,10 @@ a.icon-blue:visited {
     color: var(--color-off-white);
 }
 
+h2 > a {
+    color: var(--color-nago-blue);
+}
+
 h2 > a:visited {
     color: var(--color-nago-blue);
 }
