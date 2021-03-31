@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:wght@100&display=swap');
+
+:root {
+    background-image: url(https://i.gyazo.com/9f3ee4d85f05c027f076fb02b6b096c1.png);
+    /*background-image: url(https://i.gyazo.com/7a5db37a76e01a033ae94f739db86745.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0c0d10;
+    font-family: 'Roboto', sans-serif;
+    --color-off-white: rgb(226, 226, 226);
+    --color-nago-blue: #23406C;
+    font-size: 1em;
+    
+}
+
+body {
+    /* top right bottom left */
+    margin: 21em 0em 0em 6em;
+    max-width: 50em;
+    color: var(--color-off-white);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h2 {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique 10deg;
+    color: var(--color-nago-blue);
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    line-height: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.icon-blue {
+    display: inline-block;
+    padding: 0.4em;
+    width: 1em;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30%;
+    color: var(--color-off-white);
+    background-color: var(--color-nago-blue);
+}
+
+a.icon-blue:hover {
+    transition: visibility 0.s linear;
+    background-color: #84A5D7;
+}
+
+a.icon-blue:visited {
+    color: var(--color-off-white);
+}
+
+h2 > a:visited {
+    color: var(--color-nago-blue);
+}
+
+div#index-social-icons {
+    margin-top: 1.4em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    opacity: 0;
+    transition: visibility 0.2s linear, opacity 0.2s linear;
+
+    width: 120px;
+    margin-top: 0.6em;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: var(--color-nago-blue);
+    color: var(--color-off-white);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    opacity:1;
+}
